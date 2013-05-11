@@ -52,7 +52,7 @@ if (isset($_GET['AddedID'])) {
 	$invoice_no = $_GET['AddedID'];
 	$trans_type = ST_SALESINVOICE;
 
-	display_notification(_("Selected deliveries has been processed"), true);
+	display_notification(_("Selected deliveries has been processed"), true); // =====> ini yg akan di ubah
 
 	display_note(get_customer_trans_view_str($trans_type, $invoice_no, _("&View This Invoice")), 0, 1);
 
