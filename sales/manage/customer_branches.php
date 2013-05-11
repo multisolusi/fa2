@@ -34,6 +34,8 @@ check_db_has_tax_groups(_("There are no tax groups defined in the system. At lea
 
 simple_page_mode(true);
 //-----------------------------------------------------------------------------------------------
+// User interface nya di sebelah mana y ?.
+// blm ketemuuuuu
 
 if (isset($_GET['debtor_no']))
 {
