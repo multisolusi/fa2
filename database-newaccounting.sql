@@ -25,6 +25,7 @@ CREATE TABLE IF NOT EXISTS `areas` (
 ) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
 
 -- Dumping data for table newaccounting.areas: 1 rows
+-- Yang baris di bawah ini error pak, duplicates entry
 /*!40000 ALTER TABLE `areas` DISABLE KEYS */;
 INSERT INTO `areas` (`area_code`, `description`, `inactive`) VALUES
 	(1, 'Semarang', 0);
